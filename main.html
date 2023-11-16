@@ -7,7 +7,70 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block vs Inline Elements</title>
+    <style>
+        .divblock {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="divblock" data-ns-test="button">
+        <button>Test1</button>
+        <button>Test2</button>
+    </div>
+
+    <div class="divblock" data-ns-test="div">
+        <div>Test1</div>
+        <div>Test2</div>
+    </div>
+
+    <div class="divblock" data-ns-test="span">
+        <span>Test1</span>
+        <span>Test2</span>
+    </div>
+
+    <div class="divblock" data-ns-test="p">
+        <p>Test1</p>
+        <p>Test2</p>
+    </div>
+
+    <div class="divblock" data-ns-test="input">
+        <input type="text" value="Test1">
+        <input type="text" value="Test2">
+    </div>
+
+    <div class="divblock" data-ns-test="cite">
+        <cite>Test1</cite>
+        <cite>Test2</cite>
+    </div>
+
+    <div class="divblock" data-ns-test="code">
+        <code>Test1</code>
+        <code>Test2</code>
+    </div>
+
+    <div class="divblock" data-ns-test="h1">
+        <h1>Test1</h1>
+        <h1>Test2</h1>
+    </div>
+
+    <div class="divblock" data-ns-test="sup">
+        <sup data-ns-test="sup">Test1</sup>
+        <sup data-ns-test="sup">Test2</sup>
+    </div>
+
+    <div class="divblock" data-ns-test="sub">
+        <sub data-ns-test="sub">Test1</sub>
+        <sub data-ns-test="sub">Test2</sub>
+    </div>
+</body>
+</html>
     <script type="text/javascript" src="./script.js">
 </script>
 
